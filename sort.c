@@ -10,3 +10,8 @@ void bubble_sort(int arr[], int n) {
         }
     }
 }
+int main() {
+    int a[] = {4, 2, 0};
+    bubble_sort(a, 3);
+    return 0;
+}
